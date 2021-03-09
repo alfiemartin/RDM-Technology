@@ -1,0 +1,29 @@
+[debug] [2021-03-08T14:38:58.492Z] ----------------------------------------------------------------------
+[debug] [2021-03-08T14:38:58.494Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Alfie\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-03-08T14:38:58.495Z] CLI Version:   9.2.0
+[debug] [2021-03-08T14:38:58.495Z] Platform:      win32
+[debug] [2021-03-08T14:38:58.495Z] Node Version:  v14.15.1
+[debug] [2021-03-08T14:38:58.496Z] Time:          Mon Mar 08 2021 14:38:58 GMT+0000 (Greenwich Mean Time)
+[debug] [2021-03-08T14:38:58.496Z] ----------------------------------------------------------------------
+[debug] [2021-03-08T14:38:58.496Z] 
+[debug] [2021-03-08T14:38:58.504Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-08T14:38:58.504Z] > authorizing via signed-in user
+[debug] [2021-03-08T14:38:58.504Z] [iam] checking project persysite for permissions ["firebase.projects.get"]
+[debug] [2021-03-08T14:38:58.507Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/persysite:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2021-03-08T14:38:59.196Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 08 Mar 2021 14:38:59 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=556","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-08T14:38:59.198Z] > refreshing access token with scopes: []
+[debug] [2021-03-08T14:38:59.198Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-08T14:38:59.303Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Mon, 08 Mar 2021 14:38:59 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-08T14:38:59.315Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/persysite [none]
+[debug] [2021-03-08T14:38:59.539Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/persysite 200
+[debug] [2021-03-08T14:38:59.540Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/persysite {"projectId":"persysite","projectNumber":"715452404867","displayName":"persysite","name":"projects/persysite","resources":{"hostingSite":"persysite"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from 'C:\Users\Alfie\Desktop\Neurify\vscode\RDMTechnology\rdm-technology'...
+[info] 
+[debug] [2021-03-08T14:38:59.542Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/persysite/webApps/-/config [none]
+[debug] [2021-03-08T14:39:00.260Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/persysite/webApps/-/config 200
+[debug] [2021-03-08T14:39:00.260Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/persysite/webApps/-/config {"projectId":"persysite","appId":"1:715452404867:web:0886c92ffa7202d094b7b6","storageBucket":"persysite.appspot.com","apiKey":"AIzaSyAe3PL-eJr4-HUnSvnEO5pzAmbh97NfuYE","authDomain":"persysite.firebaseapp.com","messagingSenderId":"715452404867","measurementId":"G-N620LEVD1P"}
+[info] i  hosting: Serving hosting files from: out {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mout\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
